@@ -1,0 +1,25 @@
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+article{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+article>p{
+    text-align: justify;
+}
+.btn{
+    border: 1px #333 solid;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-size: 2rem;
+    background-color: #222;
+    color: #fff !important;
+}
+.btn:hover{
+    font-size: 2.5rem;
+    cursor: pointer;
+    text-decoration: underline;
+
+}
